@@ -1,6 +1,5 @@
 #!/bin/bash
 
-mkdir /vagrant/build
-chown vagrant /vagrant/build
+mkdir -p /vagrant/build
 yum install -y gcc gcc-c++ openssl
 
